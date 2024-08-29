@@ -7,6 +7,8 @@ require("./connection");
 
 const routes = require("./routes");
 
+const paypal = require('./services/paypal.js')
+
 PORT = 4000 || process.env.PORT;
 
 const app = express();

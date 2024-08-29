@@ -35,6 +35,14 @@ const cartSchema = new mongoose.Schema({
       type: Number,
     },
   },
+  quantity:{
+    required: true,
+    type: Number,
+  },
+  grandTotal:{
+    required: true,
+    type: Number,
+  },
   userId: {
     required: true,
     type: String,
